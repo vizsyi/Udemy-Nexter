@@ -1,0 +1,5 @@
+node_modules/*
+package-lock.json
+depreciated_package.json
+img/*.jpeg
+css/*

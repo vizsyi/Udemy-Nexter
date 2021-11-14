@@ -1,0 +1,23 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "Nexter webpage - Udemy practise",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Udemy Nexter"
+  },
+  "keywords": [
+    "Sass",
+    "Css",
+    "grid"
+  ],
+  "author": "Jonas and Pisti",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
