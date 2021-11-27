@@ -4,7 +4,8 @@
   "description": "Nexter webpage - Udemy practise",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=firefox"
   },
   "repository": {
     "type": "git",
