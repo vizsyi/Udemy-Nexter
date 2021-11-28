@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    grid-template-columns: [sidebar-st] 8rem [sidebar-end full-st] minmax(6rem, 1fr)
+        [center-st] repeat(8, [col-st] minmax(min-content, 14rem) [col-end]) [center-end]
+        minmax(6rem, 1fr) [full-end];
+
+    //font-size: 3rem;
+}
