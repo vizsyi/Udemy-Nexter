@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss src/index.css -w",
-    "devserver": "live-server",
+    "devserver": "live-server --browser=firefox",
     "start": "npm-run-all --parallel devserver watch:sass",
-    
+
     "compile:sass": "node-sass sass/main.scss src/index.comp.css",
     "concat:css": "concat -o src/index.concat.css src/index.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/index.concat.css -o src/index.prefix.css",
